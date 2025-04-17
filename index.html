@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRILLIX</title>
+    <link name="theme-color" content="#cb880a">
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!-- favicon -->
+     <link rel="shortcut icon" href="grill (1).png" type="image/x-icon">   
+     <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="preloader">
+        <h2>GRILLING...</h2>
+        <div class="loader"></div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=TFIH_L31TC4bi22o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=TFIH_L31TC4bi22o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI?si=TFIH_L31TC4bi22o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <a href="#header" class="up-btn"><i class="fa-solid fa-arrow-up"></i></a>
+    <header id="header">
+        <nav>
+            <a href="#" class="logo"><img src="grill (1).png"><span>Grill</span>ix</a>
+        <div class="links">
+            <a href="#header" class="link">Home</a>
+            <a href="#about" class="link">About</a>
+            <a href="#menu" class="link">Menu</a>
+            <a href="#reservation" class="link">Reservation</a>
+            <a href="#acc" class="link">FAQs</a>
+            <a href="#footer" class="link">Contact</a>
+        </div>
+        <div><a href="#reservation" class="main-btn">Book a Table</a></div>
+        </nav>
+        <!-- Swiper -->
+  <div class="swiper mySwiper" style="position: relative;">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide-1">
+            <h1>Welcome to <span>Grillix!</span></h1>
+            <p>Experience the true taste of the grill with mouth-watering dishes,<br> from juicy burgers to perfectly seasoned chicken.
+            </p>
+            <a class="main-btn" href="#reservation">Book a Table</a>
+      </div>
+      <div class="swiper-slide slide-2">
+            <h1>Flavors You’ll <span>Never</span> Forget</h1>
+            <p>We use only the freshest ingredients and our secret <br> marinades to bring you an unforgettable dining experience.
+            </p>
+            <a class="main-btn" href="#reservation">Book a Table</a>
+      </div>
+      <div class="swiper-slide slide-3">
+            <h1>Order Now & <span>Taste</span> the Difference</h1>
+            <p>
+                Enjoy fast service and hot delivery wherever you are — Grillix <br> is always just a bite away.
+            </p>
+            <a class="main-btn" href="#reservation">Book a Table</a>
+      </div>
+    </div>
+    <div class="swiper-button-next" style="color: #cb880a; position: absolute; right: 40px;"></div>
+    <div class="swiper-button-prev" style="color: #cb880a; position: absolute; left: 40px;"></div>
+  </div> 
+    </header>
+    
+    <section class="about" id="about">
+        <video src="About.mp4" muted autoplay loop></video>
+        <div class="content">
+            <img src="grill (1).png" alt="">
+            <h2>
+                Welcome to <span>Grillix</span> <br>where fire meets flavor. <br>
+            </h2>
+            <!-- <p>
+                Indulge in expertly crafted grilled delicacies, where every bite bursts with bold, mouthwatering flavors.
+            </p> -->
+            <a href="#menu" class="main-btn">View Menu <i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <div class="menu-section" id="menu">
+        <div class="menu-head">
+            <h1>Our <span>Menu</span></h1>
+            <p>Delicious grilled dishes, bold flavors, fresh ingredients. discover your new favorites on the Grillix menu.    
+            </p>
+            <div class="menu-btns">
+                <button data-category="all" class="reservation-btn btn">All</button>
+                <button data-category="grill" class="reservation-btn btn">Grill </button>
+                <button data-category="dessert" class="reservation-btn btn">Dessert</button>
+                <button data-category="drink" class="reservation-btn btn">Drinks</button>
+            </div>
+        </div>
+        <div class="menu-cards">
+            
+                <div class="menu-card" data-category="grill">
+                    <div class="left-card-section">
+                        <img src="grill-1.jpg">
+                    </div>
+                    <div class="right-card-section">
+                        <h2>Grilled Burger <img src="grill (1).png"></h2>
+                        <p>Juicy, smoky, charred, savory, meaty, crispy, melted, toasted, flavorful, satisfying.
+                        </p>
+                        <span>$80.00</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="grill">
+                    <div class="left-card-section">
+                        <img src="grilled.jpg">
+                    </div>
+                    <div class="right-card-section">
+                        <h2>Grilled Steak<img src="grill (1).png"></h2>
+                        <p>Juicy grilled steak sizzles on open flame, bursting with bold, savory flavor.
+                        </p>
+                        <span>$140.00</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="grill">
+                    <div class="left-card-section">
+                        <img src="grill-3.jpg">
+                    </div>
+                    <div class="right-card-section">
+                        <h2>Grilled Chicken<img src="grill (1).png"></h2>
+                        <p>Juicy, smoky, charred, savory, meaty, crispy, melted, toasted, flavorful, satisfying.
+                        </p>
+                        <span>$100.00</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="dessert">
+                    <div class="left-card-section">
+                        <img src="dessert-1.jpg">
+                    </div>
+                    <div class="right-card-section">
+                        <h2>Tiramisu<img src="grill (1).png"></h2>
+                        <p>Creamy, rich, coffee-soaked, layered, Italian, indulgent, mascarpone, cocoa-dusted, dessert, delicious.
+                        </p>
+                        <span>$200.00</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="dessert">
+                    <div class="left-card-section">
+                        <img src="dessert-2.jpg">
+                    </div>
+                    <div class="right-card-section">
+                        <h2>Chocolate Cake<img src="grill (1).png"></h2>
+                        <p>Moist, decadent, fudgy, rich, sweet, layered, chocolatey, classic, indulgent, satisfying.
+                        </p>
+                        <span>$110.00</span>
+                    </div>
+                </div>
+                    <div class="menu-card" data-category="dessert">
+                        <div class="left-card-section">
+                            <img src="dessert-3.jpg">
+                        </div>
+                        <div class="right-card-section">
+                            <h2>Chocolate Ice-cream<img src="grill (1).png"></h2>
+                            <p>Creamy, smooth, cold, chocolatey, sweet, rich, refreshing, frozen, indulgent, delightful.
+                            </p>
+                            <span>$50.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="drink">
+                        <div class="left-card-section">
+                            <img src="drinks-1.jpg">
+                        </div>
+                        <div class="right-card-section">
+                            <h2>Lemon Soda<img src="grill (1).png"></h2>
+                            <p>Zesty, fizzy, refreshing, tangy, bubbly, citrusy, cool, sweet, sparkling, invigorating.
+                            </p>
+                            <span>$70.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="drink">
+                        <div class="left-card-section">
+                            <img src="drinks-2.jpg">
+                        </div>
+                        <div class="right-card-section">
+                            <h2>Cola<img src="grill (1).png"></h2>
+                            <p>Bubbly, sweet, fizzy, refreshing, caramelized, dark, cool, crisp, carbonated, classic.
+                            </p>
+                            <span>$130.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="drink">
+                        <div class="left-card-section">
+                            <img src="drinks-3.jpg">
+                        </div>
+                        <div class="right-card-section">
+                            <h2>Turkish Coffee<img src="grill (1).png"></h2>
+                            <p>Strong, bold, rich, aromatic, traditional, intense, thick, bitter, foamy, energizing.
+                            </p>
+                            <span>$30.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="grill">
+                        <div class="left-card-section">
+                            <img src="grill-4.jpg">
+                        </div>
+                        <div class="right-card-section">
+                            <h2>Grilled Shrimp<img src="grill (1).png"></h2>
+                            <p>Smoky, savory, juicy, tender, seasoned, sizzling, flavorful, grilled, zesty, mouthwatering.
+                            </p>
+                            <span>$250.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="drink">
+                        <div class="left-card-section">
+                            <img src="drinks-4.png">
+                        </div>
+                        <div class="right-card-section">
+                            <h2> Ice Coffee<img src="grill (1).png"></h2>
+                            <p>Chilled, refreshing, smooth, creamy, sweet, iced, caffeinated, cold, energizing, invigorating.
+                            </p>
+                            <span>$80.00</span>
+                        </div>
+                    </div>
+                    <div class="menu-card" data-category="dessert">
+                        <div class="left-card-section">
+                            <img src="cupcake.webp">
+                        </div>
+                        <div class="right-card-section">
+                            <h2> Cupcake<img src="grill (1).png"></h2>
+                            <p>Velvety, luscious, creamy, crumbly, sweet, juicy, refreshing, berry-filled, elegant, mouthwatering.
+                            </p>
+                            <span>$70.00</span>
+                        </div>
+                    </div>
+        </div>
+        <section id="new-items">
+            <div class="title">
+                <h2>Coming Soon to <span><img src="grill (1).png">Grillix</span></h2>
+            </div>
+            
+            <div class="items">
+                <div class="item">
+                    <img src="new-item1.jpg" alt="">
+                    <div class="overlay">
+                        <img src="grill (1).png" alt="" class="logo-img">
+                        <h2>Chicken Pizza</h2>
+                        <button class="reservation-btn">Order Now</button>
+                    </div>
+                    <div class="downlay">
+                        <h3>Follow Us For More :</h3>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="new-item2.jpg" alt="">
+                    <div class="overlay">
+                        <img src="grill (1).png" alt="" class="logo-img">
+                        <h2>Chocolate MilkShake</h2>
+                        <button class="reservation-btn">Order Now</button>
+                    </div>
+                    <div class="downlay">
+                        <h3>Follow Us For More :</h3>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="new-item3.jpg" alt="">
+                    <div class="overlay">
+                        <img src="grill (1).png" alt="" class="logo-img">
+                        <h2>Peprroni Pizza</h2>
+                        <button class="reservation-btn">Order Now</button>
+                    </div>
+                    <div class="downlay">
+                        <h3>Follow Us For More :</h3>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="offer-head">
+                <h2><img src="grill (1).png"><span>Grillix</span> Offers</h2>
+            </div>
+            <div class="container">
+                <div class="offer">
+                    <div class="offer-overlay"></div>
+                </div>
+                <div class="offer-2">
+                    <div class="offer-overlay-2"></div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <section id="reservation" class="reservation-section">
+            <div class="reservation-body">
+                <div class="reservation-left">
+                    <h2> Reserve Your <br> Table at <span>Grillix</span></h2>
+                    <p>Reserve your table now for an unforgettable <br> Grillix dining experience.
+                    </p>
+                    <button class="main-btn" id="show-btn">Reserve Your Table</button>
+                </div>
+                <div class="reservation-right">
+                    
+                    <a  class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+                    <form class="form" id="form">
+                        <div class="form-control">
+                            <label for="username">Username <i class="fa-solid fa-user"></i></label>
+                            <input type="text" placeholder="Enter Your Name " id="username">
+                            <span>wd</span>
+                        </div>
+                        <div class="form-control">
+                            <label for="email" >Email <i class="fa-solid fa-envelope"></i></label>
+                            <input type="Email" placeholder="Enter Your Email" id="email">
+                            <span>wdd</span>
+                        </div>
+                        <div class="form-control">
+                            <label for="phone" >Phone <i class="fa-solid fa-phone"></i></label>
+                            <input type="number" placeholder="Enter Your Phone Number" id="phone">
+                            <span>dwd</span>
+                        </div>
+                        <div class="form-control" id="datee">
+                            <label for="date">Date </label>
+                            <input type="date" placeholder="Pick Your Perfect Date"  id="date">
+                            <span>dwd</span>
+                        </div>
+                        <button type="submit" class="main-btn" id="res-btn">Reserve Now</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+        <section class="reviews">
+            <!-- Swiper -->
+ <div class="swiper mySwiper" style="position: relative;">
+           <div class="swiper-title">
+               <h2>Reviews</h2>
+           </div>
+   <div class="swiper-wrapper">
+     <div class="swiper-slide review-1">
+           <img src="person-1.jpg">
+           <h2 class="name">Ali Mostafa</h2>
+           <span>Backend Developer</span>
+           <h3>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+           </h3>
+           <p>
+               "Grillix is hands down the best grill restaurant <br> I've ever been to! The flavors are incredible,and the atmosphere is so welcoming. I love watching the chefs prepare the food <br> right in front of you. A must-visit for anyone who loves grilled dishes!"
+           </p>
+     </div>
+     <div class="swiper-slide review-1">
+           <img src="person-2.jpg">
+           <h2 class="name">Mohamed Mousaa</h2>
+           <span>Game Developer</span>
+           <h3>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+           </h3>
+           <p>
+               "A fantastic experience! The steaks were cooked to perfection, <br> and the service was top-notch. The staff was friendly and attentive. I highly recommend Grillix for a great night out with friends or family!"
+           </p>
+     </div>
+     <div class="swiper-slide review-1">
+           <img src="person-3.jpg">
+           <h2 class="name">Ahmed Karim</h2>
+           <span>Mechanical Engineer</span>
+           <h3>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+               <i class="fa-solid fa-star" style="color: #e6880a;"></i>
+           </h3>
+           <p>
+               "I tried Grillix for the first time last weekend, and I was blown away! <br> The vegan options were absolutely delicious, and the ambiance is perfect for a casual dinner or a special occasion. I'll definitely be coming back!"
+           </p>
+     </div>
+     
+   </div>
+   <div class="swiper-button-next" style="color: #cb880a; position: absolute; right: 40px;"></div>
+   <div class="swiper-button-prev" style="color: #cb880a; position: absolute; left: 40px;"></div>
+ </div> 
+       </section>
+        <section class="FAQs" id="acc">
+            <div class="accordion-title"><h1>FAQs</h1></div>
+            <div class="accordions">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2> What makes Grillix different from other restaurants?</h2>
+                        <button class="accordion-btn">+</button>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Grillix stands out by offering a unique dining experience with expertly grilled dishes made from premium, fresh ingredients. Our inviting ambiance, open grill stations, and commitment to quality make every meal unforgettable.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2> Do you offer vegetarian or vegan options?</h2>
+                        <button class="accordion-btn">+</button>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Yes! Grillix caters to a variety of dietary preferences, offering a selection of delicious vegetarian and vegan options. From grilled vegetables to plant-based dishes, there's something for everyone to enjoy.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2>  How can I make a reservation at Grillix?</h2>
+                        <button class="accordion-btn">+</button>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Making a reservation at Grillix is simple! Just visit our reservation page, choose your preferred date and time, and we’ll confirm your spot. You can also call us directly to secure your table.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h2> Do you offer delivery or takeout?</h2>
+                        <button class="accordion-btn">+</button>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Currently, we focus on providing an exceptional in-restaurant experience. However, we do offer takeout for selected menu items. Contact us to check availability and make an order!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <footer id="footer">
+            <div class="left-footer">
+                <img src="grill (1).png">
+                <h2>Grill<span>ix</span></h2>
+                <div class="info">
+                    <h3><i class="fa-solid fa-location-dot"></i>Location:Ismaillia,Egypt</h3>
+                    <h3><i class="fa-solid fa-phone"></i>Phone:+02123456789</h3>
+                    <h3><i class="fa-solid fa-envelope"></i>Email:adhosam15@gmail.com</h3>
+                </div>
+            </div>
+            <div class="center-footer">
+                <h2>Quick Links</h2>
+                <div class="quick-links">
+                    <h3><a href="#">Home</a></h3>
+                    <h3><a href="#">About</a></h3>
+                    <h3><a href="#">Menu</a></h3>
+                    <h3><a href="#">Reservation</a></h3>
+                    <h3><a href="#">FAQs</a></h3>
+                </div>
+                
+            </div>
+            <div class="right-footer">
+                <h2>Social Media</h2>
+                <div class="social-media-icons">
+                    <h4><i class="fa-brands fa-facebook"></i></h4>
+                    <h4><i class="fa-brands fa-instagram"></i></h4>
+                    <h4><i class="fa-brands fa-twitter"></i></h4>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
