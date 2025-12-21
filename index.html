@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilli - Amazing & Delicious Food</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTAWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- AOS JS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="overlay"></div>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/P0uaLRO6V1U?si=tWlWgElzjoH3yXhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/P0uaLRO6V1U?si=tWlWgElzjoH3yXhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/P0uaLRO6V1U?si=tWlWgElzjoH3yXhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/P0uaLRO6V1U?si=tWlWgElzjoH3yXhS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <div class="pre-loader active">
+        <div class="loader"></div>
+        <h2>loading</h2>
+    </div>
+
+    <div class="side-menu">
+        <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <img src="images/logo.svg" alt="">
+        <div class="nav-links">
+                <a href="#" class="link">
+                    <span></span>Home
+                </a>
+                <a href="#about" class="link">
+                    <span></span>about us
+                </a>
+                <a href="#menu" class="link">
+                    <span></span>Menus
+                </a>
+                <a href="#strength" class="link">
+                    <span></span>our Strength
+                </a>
+                <a href="#contact" class="link">
+                    <span></span>contact
+                </a>
+        </div>
+    </div>
+    <a href="#" class="up-btn"><i class="fa-solid fa-chevron-up"></i></a>
+    <div class="navbar">
+        <div class="top">
+            <div class="left">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Restaurant St, Delicious City, London 9578, UK
+                </h2>
+                <div class="polygon"></div>
+                <h2>
+                    <i class="fa-solid fa-clock"></i>
+                    Daily : 8.00 am to 10.00 pm
+                </h2>
+
+            </div>
+            <div class="right">
+                <h2>
+                    <i class="fa-solid fa-phone"></i>
+                    +1 123 456 7890
+                </h2>
+                <div class="polygon"></div>
+                <h2>
+                    <i class="fa-solid fa-envelope"></i>
+                    booking@Restaurant.com
+                </h2>
+
+            </div>
+        </div>
+        <nav>
+            <div class="logo"><a href="#"><img src="images/logo.svg" alt=""></a></div>
+            <div class="links">
+                <a href="#" class="active">Home</a>
+                <a href="#about">about us</a>
+                <a href="#menu">Menus</a>
+                <a href="#strength">our Strength</a>
+                <a href="#contact">contact</a>
+            </div>
+            <a href="#book" class="btn nav-btn">find a table</a>
+            <div class="burger">
+                <ion-icon name="grid-outline"></ion-icon>
+            </div>
+        </nav>
+    </div>
+   <header>
+     <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+         <img src="images/hero-slider-2.jpg" class="hero-img">
+        <h3>delightful experience</h3>
+        <img src="images/separator.svg" class="seperator" alt="">
+        <h2>Flavors Inspired by <br> the Seasons</h2>
+        <p>Come with family & feel the joy of mouthwatering food</p>    
+        <a href="#menu" class="btn-2">View Our Menu</a>
+      </div>
+      <div class="swiper-slide">
+         <img src="images/hero-slider-1.jpg" class="hero-img">
+        <h3>Tradational & Hygine</h3>
+        <img src="images/separator.svg" class="seperator" alt="">
+        <h2>For the love of <br> delicious food</h2>
+        <p>Come with family & feel the joy of mouthwatering food</p>    
+        <a href="#menu" class="btn-2">View Our Menu</a>
+      </div>
+      <div class="swiper-slide">
+         <img src="images/hero-slider-3.jpg" class="hero-img">
+        <h3>amazing & delicious</h3>
+        <img src="images/separator.svg" class="seperator" alt="">
+        <h2>Where every flavor <br> tells a story</h2>
+        <p>Come with family & feel the joy of mouthwatering food</p>    
+        <a href="#menu" class="btn-2">View Our Menu</a>
+      </div>
+      
+    </div> 
+    <div class="swiper-button-next" id="next-btn"></div>
+    <div class="swiper-button-prev" id="prev-btn"></div> 
+  </div>
+
+   </header>
+    <section class="offer">
+        <img src="images/shape-1.png" class="shape-1" alt="">
+        <img src="images/shape-2.png" class="shape-2" alt="">
+        <div class="title">
+            <h3>Flavors For Royalty</h3>
+            <img src="images/separator.svg" alt="">
+            <h2>We Offer Top Notch</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry lorem Ipsum has been the <br>industrys standard dummy text ever.
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="images/service-1.jpg">
+                <span>Breakfast</span>
+                <a href="#menu">view menu</a>
+            </div>
+            <div class="card">
+                <img src="images/service-2.jpg">
+                <span>Appetizers</span>
+                <a href="#menu">view menu</a>
+            </div>
+            <div class="card">
+                <img src="images/service-3.jpg">
+                <span>Drinks</span>
+                <a href="#menu">view menu</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="left">
+            <h3 data-aos="fade-up" data-aos-delay="100">Our story</h3>
+            <img src="images/separator.svg" alt="" data-aos="fade-up" data-aos-delay="200">
+            <h2 data-aos="fade-up" data-aos-delay="300">
+                Every Flavor <br> Tells a Story
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="400">
+                Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.
+            </p>
+            <h4 data-aos="fade-up" data-aos-delay="500">Book Through Call</h4>
+            <span data-aos="fade-up" data-aos-delay="600">+80 (400) 123 4567</span>
+            <a href="https://en.wikipedia.org/wiki/Restaurant" class="btn-2" data-aos="fade-up" data-aos-delay="700" target="_blank">read more</a>
+        </div>
+        <div class="right">
+            <div class="logo-3">
+                <img src="images/badge-2-bg.png" class="badge" alt="">
+                <img src="images/badge-2.png" alt="">
+            </div>
+            <img src="images/about-banner.jpg" class="about-1" alt="" data-aos="fade-up" data-aos-delay="200">
+            <img data-aos="fade-up" data-aos-delay="300" src="images/about-abs-image.jpg" class="about-2" alt="">
+        </div>
+        <img src="images/shape-3.png" class="shape-3">
+    </section>
+
+    <section class="special-dish">
+        <div class="left">
+            <img src="images/special-dish-banner.jpg" alt="" data-aos="fade-up" data-aos-delay="200">
+        </div>
+        <div class="right">
+            <h3 data-aos="fade-up" data-aos-delay="100"><img src="images/badge-1.png">Special Dish</h3>
+            <img src="images/separator.svg" class="seperator" data-aos="fade-up" data-aos-delay="200">
+            <h2 data-aos="fade-up" data-aos-delay="300">Lobster Tortellini</h2>
+            <p data-aos="fade-up" data-aos-delay="400">
+                Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys  standard dummy text ever since the when an unknown printer took a galley of type.
+            </p>
+            <div class="prices">
+                <span class="deleted" data-aos="fade-up" data-aos-delay="500">$40.00</span>
+                <span class="new-price" data-aos="fade-up" data-aos-delay="600">$20.00</span>
+            </div>
+            <a href="#menu" class="btn-2" data-aos="fade-up" data-aos-delay="700">view all menu</a>
+        </div>
+        <img src="images/shape-4.png" class="shape-4"">
+    </section>
+
+    <section class="menu-section" id="menu">
+        <img src="images/shape-5.png" class="cover">
+        <div class="title">
+            <h3 data-aos="fade-up" data-aos-delay="100">Special Selection</h3>
+            <img src="images/separator.svg" data-aos="fade-up" data-aos-delay="200">
+            <h2 data-aos="fade-up" data-aos-delay="300">Delicious Menu</h2>
+        </div>
+        <div class="cards-area">
+            <div class="left left-1">
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img"><img src="images/menu-1.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Greek Salad <span>Seasonal</span></h2>
+                            <h3 class="price">$25.50</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                                Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="img"><img src="images/menu-3.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Butternut Pumpkin</h2>
+                            <h3 class="price">$10.00</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                                Typesetting industry lorem Lorem Ipsum is simply  dummy text of the priand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img"><img src="images/menu-5.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Olivas Rellenas</h2>
+                            <h3 class="price">$25.00</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                                Avocados with crab meat, red onion, crab salad stuffed  red bell pepper and green bell pepper.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line" data-aos="fade-up" data-aos-delay="100"></div>
+            <div class="left left-2">
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img"><img src="images/menu-2.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Lasagne</h2>
+                            <h3 class="price">$40.00</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                                Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="img"><img src="images/menu-4.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Tokusen Wagyu <span>new</span></h2>
+                            <h3 class="price">$39.00</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                               Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img"><img src="images/menu-6.png"></div>
+                    <div class="info">
+                        <div class="top">
+                            <h2>Opu Fish</h2>
+                            <h3 class="price">$49.00</h3>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                               Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="open-time">
+            <h2 data-aos="fade-up" data-aos-delay="100">During winter daily from <span>7:00</span> pm to <span>9:00 pm</span></h2>
+            <a href="#menu" class="btn-2" data-aos="fade-up" data-aos-delay="200">View all menu</a>
+        </div>
+        <img src="images/shape-9.png" loading="lazy" class="shape-9">
+    </section>
+
+
+
+
+   <section class="reservation" id="book">
+    <img src="images/shape-1.png" class="bg">
+    <img src="images/shape-7.png" class="shape-7">
+    <div class="form" data-aos="fade-up" data-aos-delay="100">
+        <h2>Online Reservation</h2>
+        <h3>Booking request <span>+88-123-123456</span> or fill out the order form</h3>
+        <form>
+            <div class="form-control">
+                <input type="text" placeholder="your name">
+                <input type="tel" placeholder="phone number">
+            </div>
+            <div class="form-control">
+                <input type="date">
+                <input type="time">
+            </div>
+
+            <div class="form-control">
+                <input type="text" placeholder="message" class="last-input">
+            </div>
+            <button type="submit" class="reservation-btn">book a table</button>
+        </form>
+    </div>
+    <div class="right" data-aos="fade-up" data-aos-delay="200">
+        <h2>Contact Us</h2>
+        <h3>Booking Request</h3>
+        <span>+88-123-123456</span>
+        <div class="polygon"></div>
+        <div class="box">
+            <h4>Location</h4>
+            <p>
+                Restaurant St, Delicious City, <br>
+                London 9578, UK
+            </p>
+        </div>
+        <div class="box">
+            <h4>Lunch Time</h4>
+            <p>
+               Monday to Sunday <br>
+                11.00 am - 2.30pm
+            </p>
+        </div>
+        <div class="box">
+            <h4>Dinner Time</h4>
+            <p>
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+            </p>
+        </div>
+    </div>
+   </section>
+
+   <section class="our-strength" id="strength">
+        <div class="title">
+            <h3 data-aos="fade-up" data-aos-delay="100">Why Choose Us</h3>
+            <img src="images/separator.svg" data-aos="fade-up" data-aos-delay="200">
+            <h2 data-aos="fade-up" data-aos-delay="300">Our Strength</h2>
+        </div>
+        <div class="cards-space">
+            <div class="card car" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/features-icon-1.png" >
+                <h2>Hygienic Food</h2>
+                <p>
+                    Lorem Ipsum is simply dummy printing and typesetting.
+                </p>
+            </div>
+            <div class="card card-" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/features-icon-2.png" >
+                <h2>Fresh Environment</h2>
+                <p>
+                    Lorem Ipsum is simply dummy printing and typesetting.
+                </p>
+            </div>
+            <div class="card car" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/features-icon-3.png" >
+                <h2>Skilled Chefs</h2>
+                <p>
+                    Lorem Ipsum is simply dummy printing and typesetting.
+                </p>
+            </div>
+            <div class="card card-" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/features-icon-4.png" >
+                <h2>Event & Party</h2>
+                <p>
+                    Lorem Ipsum is simply dummy printing and typesetting.
+                </p>
+            </div>
+        </div>
+   </section>
+   <section class="up-coming">
+    <div class="title">
+        <h3 data-aos="fade-up" data-aos-delay="100">Recent Updates</h3>
+        <img src="images/separator.svg" loading="lazy" data-aos="fade-up" data-aos-delay="200">
+        <h2 data-aos="fade-up" data-aos-delay="300">Upcoming Event</h2>
+    </div>
+    <div class="section-cards">
+        <div class="up-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/event-1.jpg" >
+            <h3>15/09/2022</h3>
+            <div class="info">
+                <span>Food, Flavour</span>
+                <p>Flavour so good you’ll try to <br> eat with your eyes.</p>
+            </div>
+        </div>
+        <div class="up-card" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/event-2.jpg" >
+            <h3>08/09/2022</h3>
+            <div class="info">
+                <span>Healthy Food </span>
+                <p>Flavour so good you’ll try to <br> eat with your eyes.</p>
+            </div>
+        </div>
+        <div class="up-card" data-aos="fade-up" data-aos-delay="300">
+            <img src="images/event-3.jpg" >
+            <h3>03/09/2022</h3>
+            <div class="info">
+                <span>Recipie</span>
+                <p>Flavour so good you’ll try to <br> eat with your eyes.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#" data-aos="fade-up" data-aos-delay="100">view our blog</a>
+   </section>
+    
+   <footer id="contact">
+        <div class="top-footer">
+            <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                <a href="#">home</a>
+                <a href="#">menus</a>
+                <a href="#">about us</a>
+                <a href="#">testimonial</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="center" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/logo.svg">
+                <p>
+                    Restaurant St, Delicious City, London 9578, UK <br>
+                    booking@grilli.com <br>
+                    Booking Request : +88-123-123456 <br>
+                    Open : 09:00 am - 01:00 pm
+                </p>
+                <div class="polygons">
+                    <div class="polygon"></div>
+                    <div class="polygon"></div>
+                    <div class="polygon"></div>
+                </div>
+                <h2>Get News & Offers</h2>
+                <h3>Subscribe us & Get <span>25% Off.</span></h3>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="enter your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-links" data-aos="fade-up" data-aos-delay="300">
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">youtube</a>
+                <a href="#">google map</a>
+            </div>
+        </div>
+        <h2 class="copy-right">© 2025 Grilli. All Rights Reserved | Crafted by <span>Hossam adel</span></h2>
+   </footer> 
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+      
+      <script src="app.js"></script>
+
+</body>
+</html>
